@@ -10,7 +10,7 @@ Template.hello.onCreated(function helloOnCreated() {
 
 Template.hello.helpers({
   counter() {
-    web3.eth.getBalance("test",
+    web3.eth.getBalance("0x498780f1952f53F0B375DD1Ae8f29c700241B639",
     	function (err,res){
     		alert(res);
     	}
