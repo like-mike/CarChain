@@ -11,7 +11,7 @@
 
 <template name="hello">
   <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+  <p>You've pressed the button {{counter}} {{TemplateVar.get "counter"}} times.</p>
 </template>
 
 <template name="info">
